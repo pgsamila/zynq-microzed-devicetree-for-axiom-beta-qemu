@@ -122,6 +122,10 @@
 		compatible = "at,24c08";
 		reg = <0x54>;
 	};
+		pic@10 {
+		compatible = "pic";
+		reg = <0x10>;
+	};
 };
 
 &pinctrl0 {
@@ -367,9 +371,4 @@
 	usb-phy = <&usb_phy0>;
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_usb0_default>;
-};
-
-pic@10 {
-	compatible = "pic";
-	reg = <0x10>;
 };
