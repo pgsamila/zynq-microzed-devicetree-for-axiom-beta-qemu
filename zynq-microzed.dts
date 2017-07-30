@@ -128,7 +128,6 @@
 	status = "okay";
 	clock-frequency = <400000>;
 	pinctrl-names = "default";
-	pinctrl-1 = <&pinctrl_i2c1_default>;
 
 	pic@10 {
 		compatible = "pic";
